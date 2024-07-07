@@ -1,0 +1,118 @@
+/* Mobile layout */
+
+body {
+    background-color: #434343;
+    color: #FAEBCD;
+}
+
+header, main div, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #F7C873;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+#logo {
+    width: 10vw;
+    height: 100%;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+a {
+    margin: 0 0.5rem;
+    color: #434343;
+}
+
+img {
+    max-width: 80vw;
+    height: 40vh;
+}
+
+p {
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+footer {
+    margin-top: 1rem;
+    background-color: #F8F8F8;
+    color: #434343;
+}
+
+
+/* Start your work from here by uncommenting the following code */
+
+    @media only screen and (min-width: 400px) {
+        img {
+            max-width: 60vw;
+            height: 30vh;
+        }
+
+        main div {
+            flex-direction: row;
+            padding: 1rem 2rem;
+        }
+
+        main p {
+            width: 50%;
+            margin: auto;
+            font-size: 1.5rem;
+        }
+    }
+
+     @media only screen and (min-width: 1000px) {
+        header {
+            flex-direction: row;
+            justify-content:space-between;
+            padding: 1rem 2rem;
+        }
+
+        main {
+            display: flex;
+        }
+
+        main p {
+            width: 40%;
+        }
+     }
+
+/* Tablet layout*/
+/* img {
+    max-width: 60vw;
+    height: 30vh;
+}
+
+main div {
+    flex-direction: row;
+    padding: 1rem 2rem;
+}
+
+main p {
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+} */
+
+
+/* Desktop layout */
+/* header {
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+}
+
+main {
+    display: flex;
+}
+
+main p {
+    width: 40%;
+} */
